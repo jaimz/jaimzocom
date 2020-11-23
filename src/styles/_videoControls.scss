@@ -1,0 +1,72 @@
+@import "palette";
+@import "typeography";
+
+$inset: 28px;
+
+.videoControls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  position: absolute;
+  bottom: -36px;
+  left: $inset;
+  width: 100%;
+  padding-right: $inset * 2;
+
+  transition: opacity 1s ease-out;
+  opacity: 1;
+
+  &.disabled {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .playPauseButton {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 17px;
+    height: 20px;
+
+    cursor: pointer;
+
+    background-image: url('./img/play.svg');
+
+    &.playing {
+      background-image: url('./img/pause.svg');
+    }
+  }
+
+  .track {
+    $height: 1px;
+
+    height: $height;
+    width: 100%;
+    position: relative;
+    background-color: transparentize($text_fg, 0.7);
+    margin: 0 $inset / 2;
+
+    .loadProgress {
+      position: absolute;
+      height: $height;
+      background-color: $text_fg;
+    }
+
+    .playProgress {
+      position: absolute;
+      top: -1px;
+      height: $height + 2;
+      border-radius: $height + 2;
+      background-color: $text_fg;
+    }
+  }
+}
+
+.clock {
+  font-family: $article-title-font-stack;
+  font-weight: 200;
+  font-size: 21px;
+  min-width: 57px;
+}

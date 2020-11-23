@@ -1,0 +1,16 @@
+@import "palette";
+
+body {
+  color: $text_fg;
+  background: $page_bg;
+}
+
+body::before {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  width: 100%;
+  height: 230px;
+  background: radial-gradient(70% 230px at top center, $page_shadow, $page_bg);
+  content: " ";
+}

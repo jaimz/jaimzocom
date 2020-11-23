@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="18px" viewBox="0 0 12 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>pause</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-145.000000, -815.000000)" fill="#848B98" fill-rule="nonzero">
+            <path d="M146,833 L148,833 C148.65285,833 149,832.746053 149,832 L149,816 C149,815.242105 148.65285,815 148,815 L146,815 C145.336788,815 145,815.242105 145,816 L145,832 C145,832.746053 145.336788,833 146,833 Z M154,833 L156,833 C156.65285,833 157,832.746053 157,832 L157,816 C157,815.242105 156.65285,815 156,815 L154,815 C153.336788,815 153,815.242105 153,816 L153,832 C153,832.746053 153.336788,833 154,833 Z" id="pause"></path>
+        </g>
+    </g>
+</svg>
