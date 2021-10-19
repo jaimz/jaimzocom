@@ -1,7 +1,7 @@
 import { VideoControls } from "./VideoControls";
 
 const movieSfx = ['mov', 'mp4'];
-const imgSfx = ['jpg', 'png'];
+const imgSfx = ['jpg', 'png', 'webp'];
 
 function fillImage(item : HTMLElement, src: string) {
     const width = parseInt(item.dataset['width']);

@@ -75,7 +75,7 @@ h1 {
     }
 
     .placeholder {
-      filter: blur(100px);
+      filter: blur(100px) opacity(0.5);
       display: block;
       min-width: 768px;
     }
