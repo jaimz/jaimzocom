@@ -19,6 +19,7 @@ body::before {
   width: 100%;
   height: 230px;
   background: radial-gradient(70% 230px at top center, #EDEDED, #F8FBFF);
+  opacity: 0.4;
   content: " "; }
 
 @font-face {
@@ -143,7 +144,7 @@ h1 {
       width: 100%;
       box-shadow: 0 30px 34px -30px; }
     .item .frame .placeholder {
-      filter: blur(100px);
+      filter: blur(100px) opacity(0.5);
       display: block;
       min-width: 768px; }
     .item .frame .poster {
